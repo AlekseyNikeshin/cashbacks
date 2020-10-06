@@ -6,9 +6,9 @@ public class Main {
         double limit = 3000;
         if (cashbackRegularExpenses>limit){cashbackRegularExpenses=limit;}
 
-        double percentElevatedCasbak = 5;
+        double percentElevatedCashback = 5;
         int buys = 15000;
-        double cashbackBuys = percentElevatedCasbak * buys/100;
+        double cashbackBuys = percentElevatedCashback * buys/100;
         if (cashbackBuys>limit){cashbackBuys=limit;}
 
         double specialPercent = 3;
