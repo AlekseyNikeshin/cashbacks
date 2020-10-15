@@ -1,22 +1,22 @@
 public class Main {
     public static void main(String[] args) {
-        double percent = 1;
-        int regularExpenses = 290000;
+        int percent = 1;
+        double regularExpenses = 290000;
         double cashbackRegularExpenses = percent * regularExpenses / 100;
         int limit = 3000;
         if (cashbackRegularExpenses > limit) {
             cashbackRegularExpenses = limit;
         }
 
-        double percentElevatedCashback = 5;
-        int buys = 15000;
+        int percentElevatedCashback = 5;
+        double buys = 15000;
         double cashbackBuys = percentElevatedCashback * buys / 100;
         if (cashbackBuys > limit) {
             cashbackBuys = limit;
         }
 
-        double specialPercent = 3;
-        int specialBuys = 5000;
+        int specialPercent = 3;
+        double specialBuys = 5000;
         double specialCashback = specialPercent * specialBuys / 100;
         if (specialCashback > limit) {
             specialPercent = limit;
